@@ -1,0 +1,111 @@
+
+body {
+    padding-top: 20px; 
+    font-family: Arial,
+    Helvetica,
+    Helvetica Neue,
+    sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+    margin: 0 auto;
+    
+}
+input, textarea{
+    width: 90%;
+}
+fieldset{
+    border: 2px solid #DDD;
+    background-color: #f5f5f5;
+}
+legend{
+    background-color: #fff;
+    border: 1px solid #DDD;
+    padding: 15px;
+    font-size: 2rem;
+}
+h1 {
+    font-size: 1.25rem;
+}
+.box-btn{
+    margin: 0 auto;
+}
+
+[type="button"] {
+    cursor: pointer;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 0.3rem; 
+    background-color: #6495ED;
+    color: white;
+    margin: 0 auto;
+}
+
+[type="button"]:hover {
+    background-color: #DDD;
+    color: #666;
+}
+
+[type="button"]:active {
+    background-color: #000;
+    color: #FFF;
+}
+
+[type="text"] {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    border: 1px solid #DDD;
+}
+
+
+
+
+@media only screen and (min-width:25rem) { 
+.box-fname,
+.box-email {
+    width: 96%;
+}
+[type="button"] {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+}
+
+
+
+@media only screen and (min-width:40rem) {
+.box-fname,
+.box-email {
+    width: 48%;
+    float: left;
+}
+
+.box-fname {
+    margin-right: 4%;
+}
+[type="button"] {
+    width: 30%;
+    margin: 0 auto;
+}
+}
+
+
+@media only screen and (min-width:50rem) {
+
+.box-fname,
+.box-email {
+    width: 48%;
+    float: left;
+}
+
+.box-fname {
+    margin-right: 4%;
+}
+body {
+    width: 50rem;
+}
+}
